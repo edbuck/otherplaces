@@ -1,0 +1,281 @@
+/* GENERAL */
+
+#outer-wrapper {
+	background:#FFFFFF none repeat scroll 0 0;
+	border:0 none;
+	margin:10px auto;
+	padding:0 20px 20px;
+	width:1024px
+}
+
+
+/* H2 headers */
+
+h1 {
+	font-weight:normal;
+	line-height:1em;
+	font-size:2.6em;
+    margin: .8em 0 .3em 0;
+}
+
+h2 {
+	font-weight:normal;
+	line-height:1em;
+	font-size:2em;
+    margin: .4em 0 .3em 0;
+}
+
+.breadcrumbs {
+	font-weight:bold;
+	line-height:1em;
+	font-size:2em;
+    margin: .4em 0 .3em 0;
+	color:#3F4C6B;
+}
+
+.breadcrumbs a {
+	text-decoration: none;
+	color:#3F4C6B;
+}
+
+.breadcrumbs a:hover{
+	text-decoration: underline;
+}
+
+#home, #random, #albums { 
+	border: 0px;
+}
+
+#googleMapBalloon img { 
+   padding: 2px 2px 2px 0;
+}
+#googleMapBalloon img { 
+   padding: 2px 2px 2px 0;
+}
+/* begin trip gallery styling */
+#tripballoon { 
+	list-style: none;
+	width: 120px;
+	padding: 2px 2px 2px 0;}
+	
+/* begin trip gallery styling */
+#tripgallery { 
+	list-style: none;
+	width: 220px;}
+#tripgallery li,#tripballoon li { opacity: .99;
+	float: left; 
+	display: block; 
+	width: 100px; 
+	height: 100px; 
+	background-position: 50% 50%; 
+	background-repeat: no-repeat;
+	cursor: pointer; 
+	border: 3px solid #fff; 
+	outline: 1px solid #ddd; 
+	margin-right: 0px; 
+	margin-bottom: 0px; }
+#tripgallery li img,#tripballoon li img { 
+	position: absolute;
+	top: 20px; 
+	left: 220px; 
+	display: none; }
+#tripgallery li.active img { 
+	display: block; }
+#tripgallery li.active, #jgal li:hover { 
+	outline-color: #bbb; 
+	opacity: .99 /* safari bug */ }
+
+#albumthumbs { 
+	list-style: none;
+	}
+#albumthumbs li { opacity: .99;
+	float: left; 
+	display: block; 
+	height: 100px; 
+	background-position: 1% 50%; 
+	background-repeat: repeat;
+	cursor: pointer; 
+	border: 0px solid #fff; 
+	outline: 0px solid #ddd; 
+	margin-right: 2px; 
+	//margin-bottom: 4px; }
+#albumthumbs li img { 
+	position: absolute;
+	top: 20px; 
+	left: 220px; 
+	display: none; }
+#albumthumbs li.active img { 
+	display: block; }
+#albumthumbs li.active, #jgal li:hover { 
+	outline-color: #bbb; 
+	opacity: .99 /* safari bug */ }
+
+/* begin album gallery styling */
+#albumgallery { opacity: .99;
+	float: left; 
+	display: block; 
+	width: 100px; 
+	height: 100px; 
+	background-position: 50% 50%; 
+	background-repeat: no-repeat;
+	cursor: pointer; 
+	border: 0px solid #fff; 
+	outline: 0px solid #ddd; 
+	margin-right: 8px; 
+	margin-bottom: 4px; }
+
+
+
+/* LIST */
+
+.invisibletable {
+    margin: 10px 1px 1px 1px;
+}
+.triplist {
+    margin: 1px 1px 1px 1px;
+}
+
+.triplist table {
+    border-collapse: collapse;
+}
+
+.triplist th, .triplist td {
+    border-left: 0px solid #ddd;
+}
+
+.triplist th:hover, .triplist tr:hover {
+    background: #b2d1ff;
+}
+
+.triplist tr {
+    border-bottom: 10px solid #ddd;
+}
+
+
+/* NAV */
+
+#dropdownnav, #dropdownnav ul {
+	z-index:1;
+	position: relative;
+	background:white none repeat scroll 0 0;
+	border-color:#C3D9FF;
+	border-style:solid;
+	border-width:3px 0;
+	float:left;
+	font-weight:bold;
+	line-height:1;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:5px 0 5px;
+	padding:0;
+	width:1024px;
+}
+
+#dropdownnav a {
+	color:#3F4C6B;
+	display:block;
+	padding:3px 22px;
+	text-decoration:none;
+	//width:341px;
+}
+
+#dropdownnav a.daddy {
+	background:transparent url(rightarrow2.gif) no-repeat scroll right center;
+}
+
+#dropdownnav li {
+	float:left;
+	padding:0;
+	width:341px;
+}
+
+
+#dropdownnav li li {
+	padding-right:2px;
+	width:215px;
+}
+
+#dropdownnav li ul.singleCol {
+	border-width:3px;
+	font-weight:normal;
+	height:auto;
+	left:-10000px;
+	margin:0;
+	position:absolute;
+	width:335px;
+}
+
+#dropdownnav li ul.doubleCol {
+	border-width:3px;
+	font-weight:normal;
+	height:auto;
+	left:-10000px;
+	margin:0;
+	position:absolute;
+	width:682px;
+}
+
+#dropdownnav li ul li ul.innerCol {
+	border-width:0px 0;
+	font-weight:normal;
+	height:auto;
+	float:left;
+	left:-10000px;
+	margin:0;
+	position:static;
+	width:218px;
+}
+
+#dropdownnav li ul.singleCol li ul.innerCol {
+	width:335px;
+}
+
+#dropdownnav ul.singleCol a {
+	width:335px;
+}
+
+#dropdownnav ul.doubleCol a {
+	width:215px;
+}
+
+
+#dropdownnav li ul.doubleCol li ul li, #dropdownnav li ul li ul li ul li {
+	width:215px;
+}
+
+#dropdownnav li ul.singleCol li ul li, #dropdownnav li ul li ul li ul li {
+	width:335px;
+}
+
+#dropdownnav li ul li.mainoption {
+	border-width:1px;
+	//font-size:13px;
+	//padding:3px 11px;
+}
+
+#dropdownnav li ul li.separator hr{
+	color:#C3D9FF;
+	//font-size:13px;
+	//padding:3px 11px;
+}
+
+#dropdownnav li ul ul {
+	margin:-18px 0 0 154px;
+}
+
+#dropdownnav li:hover ul ul, #nav li:hover ul ul ul, #nav li.sfhover ul ul, #nav li.sfhover ul ul ul {
+	left:-10000px;
+}
+
+#dropdownnav li:hover ul, #nav li li:hover ul, #nav li.sfhover ul, #nav li li.sfhover ul {
+	left:auto;
+}
+
+#dropdownnav li:hover ul li ul.innerCol {
+	left: auto;
+}
+
+#dropdownnav li:hover, #nav li.sfhover {
+	background:#C3D9FF none repeat scroll 0 0;
+}

@@ -1,0 +1,64 @@
+div.header {
+  padding: 10px;
+  overflow: auto;
+}
+
+div.loginForm {
+  float:right;
+  text-align: right;
+}
+
+div.loginForm input {
+  margin: 0;
+  padding: 2px 2px;
+}
+
+div.loginForm .buttons {
+  padding: 5px 5px 5px 10px !important;
+  overflow: auto;
+}
+
+p.loginNotice {
+  font-size: 10pt;
+  line-height: 12pt;
+  padding: 5px;
+  color: #ff0000;
+}
+
+div.title {
+  font-size: 28pt;
+  line-height: 32pt;
+  float: left;
+}
+
+div.content {
+  overflow: auto;
+  padding: 0 10px;
+}
+
+div.footer {
+  overflow: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+input, textarea {
+  font: 8pt/10pt 'Courier New', courier, monospace;
+}
+
+input.button, input.edit, input.save, input.delete {
+  font-family: Verdana, Helvetica, sans-serif;
+}
+
+p.advise {
+  border: 1px solid #00ff00;
+  padding: 5px;
+  margin: 5px;
+}
+
+.gallery img {
+  background-color: #ececec;
+  border: 1px solid #ccc;
+  margin: 2px;
+  padding: 0;
+}
